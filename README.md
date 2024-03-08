@@ -1,1 +1,1 @@
-# Cypress-Testing-The-Ideal-Plant
+# Cypress Testing The Ideal Plant
