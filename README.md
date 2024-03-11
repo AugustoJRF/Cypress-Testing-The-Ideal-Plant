@@ -20,4 +20,4 @@ This automation was developed with Cypress to test the website The Ideal Plant.
 - The recommended plants modal behavior.
 - All possible answers selection scenarios.
 
-## Explanation about the development
+**Note:** The tests related to recommended plants should ensure that the plants corresponding to the given answers appear in the modal. However, it is not necessary to verify the text regarding the cultivation tips of these plants. Therefore, the test will be considered successful if the modal opens with the specific plants corresponding to the selected conditions.
