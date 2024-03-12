@@ -46,8 +46,8 @@ describe('Verify the content of the cards, container and form', () => {
                 .contains('.card-text', plant.name)
                 .should('exist')
                 .then(($name) => {
-                    const $card = $name.closest('.card.bg-light');
-                    cy.wrap($card).find(`img[src="${plant.image}"]`).should('be.visible');
+                    const $card = $name.closest('.card.bg-light')
+                    cy.wrap($card).find(`img[src="${plant.image}"]`).should('be.visible')
                 });
         });
     });
@@ -240,7 +240,7 @@ describe('Verify if the modal closes properly', () => {
         cy.clickOnCheckThePlantsButton()
         cy.get('#plantsresults').should('be.visible')
         cy.wait(300)
-        cy.get('#exampleModal').click({force: true})
+        cy.get('#exampleModal').click({ force: true })
         cy.get('#plantsresults').should('not.be.visible')
     })
 })
