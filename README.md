@@ -1,6 +1,6 @@
 # Cypress Testing The Ideal Plant
 
-![Cypress tests](https://github.com/AugustoJRF/Cypress-Testing-The-Ideal-Plant/actions/workflows/cypress.yml/badge.svg)
+[![Cypress tests](https://github.com/AugustoJRF/Cypress-Testing-The-Ideal-Plant/actions/workflows/cypress.yml/badge.svg)](https://github.com/AugustoJRF/Cypress-Testing-The-Ideal-Plant/actions/workflows/cypress.yml)
 
 This automation was developed with Cypress to test the website The Ideal Plant.
 
